@@ -94,7 +94,7 @@ public class ReusableActions_Loggers {
         }
         return textOutput;
     }
-
+    //DDD
     public static void compareExpectedAndActualText(String expectedText, String actualText, ExtentTest logger) {
         if (actualText.equals(expectedText)) {
             logger.log(LogStatus.PASS, "Expected Text: " + expectedText + " and Actual Text: " + actualText + " match");
